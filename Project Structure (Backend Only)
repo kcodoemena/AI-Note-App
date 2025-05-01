@@ -1,0 +1,16 @@
+ai-notes-app/
+│
+├── app/
+│   ├── main.py              # FastAPI app setup
+│   ├── models.py            # Pydantic models and ORM
+│   ├── database.py          # DB setup (SQLite)
+│   ├── crud.py              # CRUD operations
+│   ├── sentiment.py         # Sentiment analysis logic
+│   └── auth.py              # API Key auth middleware
+│
+├── tests/
+│   └── test_notes.py        # Unit tests (bonus)
+│
+├── Dockerfile
+├── requirements.txt
+└── README.md
